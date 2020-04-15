@@ -14,19 +14,19 @@ export class Navbar extends Component {
 
     render() {
         return (
-            <nav className='z-depth-0 sticky' style={{ backgroundColor: 'white' }}>
-                <div className='nav-wrapper'>
-                    <div style={{ backgroundColor: 'white' }}>
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style={{ color: '#212121' }}>menu</i></a>
-                        <ul className="hide-on-med-and-down" style={{ margin: '1rem', color: '#212121' }} >
-                            <li><Link to='/' >Home</Link></li><br /><br />
-                            <li><Link to='/portfolio' >Portfolio</Link></li><br /><br />
-                            <li><Link to='/about' >About</Link></li><br /><br />
-                            <li><Link to='/connect'>Connect</Link></li>
+            <div className='navbar-fixed'>
+                <nav className='z-depth-0' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
+                    <div className='nav-wrapper'>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger left"><i class="material-icons" style={{ color: '#212121' }}>menu</i></a>
+                        <ul id='nav-mobile' className="left hide-on-med-and-down" style={{ margin: '1rem', color: '#212121' }} >
+                            <li><Link to='/' className='black-text' >Home</Link></li>
+                            <li><Link to='/' className='black-text'>Portfolio</Link></li>
+                            <li><Link to='/' className='black-text'>About</Link></li>
+                            <li><Link to='/' className='black-text'>Connect</Link></li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
 
         )
     }
