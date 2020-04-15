@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";
 import WebDev from "../components/WebDev";
+import Header from "../components/Header";
 
 
 const Home = () => {
@@ -14,13 +15,7 @@ const Home = () => {
             <Row>
 
                 <Col size='s12'>
-                    <div className='center'>
-                        <Img src='https://jacobdolph.github.io/assets/images/jacob-2.JPG' cAlign circle />
-                        <h4>Jacob Dolph</h4>
-
-                    </div>
-
-
+                    <Header />
                 </Col>
                 <Col size='s12'>
                     <WebDev />
