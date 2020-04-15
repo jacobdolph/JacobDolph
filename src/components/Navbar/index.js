@@ -16,7 +16,7 @@ export class Navbar extends Component {
         return (
 
 
-            <div style={{ backgroundColor: '#212121'; }}>
+            <div style={{ backgroundColor: '#212121' }}>
                 <a href="#!" className="brand-logo center flow-text" ><h5 style={{ marginTop: '0' }}>Jacob Dolph</h5></a>
                 <br />
                 <ul className="hide-on-med-and-down" style={{ margin: '1rem' }} >
