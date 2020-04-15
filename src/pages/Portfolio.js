@@ -33,9 +33,11 @@ const Portfolio = () => {
                         <div className='center' style={{ backgroundColor: 'white', height: '100%' }}>
                             <div style={{ paddingTop: '6rem' }}>
                                 <h1 className='flow-flex' style={{ margin: '0' }}>Portfolio</h1>
-                                <Row>
-                                    <Mapout />
-                                </Row>
+                                <div className='container'>
+                                    <Row>
+                                        <Mapout />
+                                    </Row>
+                                </div>
                             </div>
                         </div>
                     </Col>
