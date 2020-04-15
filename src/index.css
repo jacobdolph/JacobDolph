@@ -21,3 +21,9 @@ background-color:
 #c1856d!important;
 
   }
+
+  .sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+  }

@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";
 import WebDev from "../components/WebDev";
 import Header from "../components/Header";
+import Portfolio from "../components/Portfolio";
 
 
 const Home = () => {
@@ -13,7 +14,6 @@ const Home = () => {
             <Navbar />
             <Navmobile />
             <Row>
-
                 <Col size='s12'>
                     <Header />
                 </Col>
@@ -21,7 +21,9 @@ const Home = () => {
                     <WebDev />
                 </Col>
             </Row>
-
+            <Row>
+                <Portfolio />
+            </Row>
 
         </Container >
     );
