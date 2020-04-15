@@ -1,7 +1,5 @@
 import React from "react";
-import { Col, Row, Container, Img } from '../Grid'
-import { Link } from 'react-router-dom'
-
+import { Row, Container } from '../Grid'
 
 
 const Portfolio = () => {

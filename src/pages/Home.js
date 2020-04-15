@@ -1,11 +1,12 @@
 import React from "react";
-import { Col, Row, Container, Img } from '../components/Grid'
-import { Link } from 'react-router-dom'
+import { Col, Row, Container } from '../components/Grid'
+
 import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";
 import WebDev from "../components/WebDev";
 import Header from "../components/Header";
 import Portfolio from "../components/Portfolio";
+import Mapout from "../components/Mapout";
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
             </Row>
             <Row>
                 <Portfolio />
+                <Mapout />
             </Row>
 
         </Container >

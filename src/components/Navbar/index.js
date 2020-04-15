@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navmobile from '../Navmobile';
 import M from 'materialize-css/dist/js/materialize.min.js'
 import { Link } from 'react-router-dom'
 export class Navbar extends Component {
@@ -17,7 +16,7 @@ export class Navbar extends Component {
             <div className='navbar-fixed'>
                 <nav className='z-depth-0' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
                     <div className='nav-wrapper'>
-                        <a href="#" data-target="mobile-demo" class="sidenav-trigger left"><i class="material-icons" style={{ color: '#212121' }}>menu</i></a>
+                        <a href="#" data-target="mobile-demo" className="sidenav-trigger left"><i className="material-icons" style={{ color: '#212121' }}>menu</i></a>
                         <ul id='nav-mobile' className="left hide-on-med-and-down" style={{ margin: '1rem', color: '#212121' }} >
                             <li><Link to='/' className='black-text' >Home</Link></li>
                             <li><Link to='/' className='black-text'>Portfolio</Link></li>
