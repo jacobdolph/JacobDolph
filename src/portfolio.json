@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Coffee Finder",
+        "projectUrl": "https://jordan-hanson.github.io/GroupProject/",
+        "repoUrl": "https://github.com/jordan-hanson/GroupProject",
+        "image": "https://i.imgur.com/GessrcX.png"
+    },
+    {
+        "id": 2,
+        "name": "Budget Tracker",
+        "projectUrl": "https://progressive-budget-tracker.herokuapp.com/",
+        "repoUrl": "https://github.com/jacobdolph/progressive-budget-tracker",
+        "image": "https://i.imgur.com/zmTqYEl.png"
+    },
+    {
+        "id": 3,
+        "name": "Fitness Tracker",
+        "projectUrl": "https://stormy-everglades-49849.herokuapp.com/?id=5e88b2d99f2ca2001709a706",
+        "repoUrl": "https://github.com/jacobdolph/gitbuff-academy",
+        "image": "https://i.imgur.com/eBOdQfo.png"
+    },
+    {
+        "id": 4,
+        "name": "Note Taker",
+        "projectUrl": "https://github.com/jacobdolph/The-Incredible-Note-Taker",
+        "repoUrl": " https://the-incredible-note-taker.herokuapp.com/",
+        "image": "https://i.imgur.com/ToNA9Hz.png"
+    },
+    {
+        "id": 5,
+        "name": "Employee Directory",
+        "projectUrl": "https://github.com/jacobdolph/employee-directory",
+        "repoUrl": "https://jacobdolph.github.io/employee-directory/",
+        "image": "https://i.imgur.com/atOp96z.png"
+    },
+    {
+        "id": 6,
+        "name": "Daily Planner",
+        "projectUrl": "https://jacobdolph.github.io/05-daily-planner-homework/",
+        "repoUrl": "https://github.com/jacobdolph/05-daily-planner-homework",
+        "image": "https://i.imgur.com/MTlqx51.png"
+    }
+]
