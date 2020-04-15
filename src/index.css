@@ -5,7 +5,7 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: linear-gradient(45deg,#fd8413,#ff00b3);
+background-color:white  ;
   }
 
   main {

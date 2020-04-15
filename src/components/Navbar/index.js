@@ -16,10 +16,9 @@ export class Navbar extends Component {
         return (
 
 
-            <div style={{ backgroundColor: '#212121' }}>
-                <a href="#!" className="brand-logo center flow-text" ><h5 style={{ marginTop: '0' }}>Jacob Dolph</h5></a>
-                <br />
-                <ul className="hide-on-med-and-down" style={{ margin: '1rem' }} >
+            <div style={{ backgroundColor: 'white' }}>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style={{ color: '#212121' }}>menu</i></a>
+                <ul className="hide-on-med-and-down" style={{ margin: '1rem', color: '#212121' }} >
                     <li><Link to='/' >Home</Link></li><br /><br />
                     <li><Link to='/portfolio' >Portfolio</Link></li><br /><br />
                     <li><Link to='/about' >About</Link></li><br /><br />

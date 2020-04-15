@@ -22,5 +22,5 @@ export function Col({ size, children }) {
     );
 }
 export function Img({ circle, src, cAlign }) {
-    return <img style={{ maxWidth: '8rem', margin: "2rem 2rem", border: "solid", borderColor: "#ff00b3" }} src={src} alt="" className={`${circle ? "circle responsive-img" : ""} ${cAlign ? "center-align" : ""}`} />
+    return <img style={{ width: '20rem', margin: '0rem', border: "solid", borderColor: "#f57c00" }} src={src} alt="" className={`${circle ? "circle responsive-img" : ""} ${cAlign ? "center-align" : ""}`} />
 }
