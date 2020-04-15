@@ -14,7 +14,7 @@ export class Navbar extends Component {
     render() {
         return (
             <div className='navbar-fixed'>
-                <nav className='z-depth-0' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
+                <nav className='z-depth-0' style={{ backgroundColor: 'rgba(255, 255, 255, 1)' }}>
                     <div className='nav-wrapper'>
                         <a href="#" data-target="mobile-demo" className="sidenav-trigger left"><i className="material-icons" style={{ color: '#212121' }}>menu</i></a>
                         <ul id='nav-mobile' className="left hide-on-med-and-down" style={{ margin: '1rem', color: '#212121' }} >
