@@ -12,29 +12,20 @@ class Mapout extends Component {
         return (
             <Wrapper>
                 <Container container>
-
-                    {
-                        portfolio.map(portfolio => (
-                            <Card
-                                title={portfolio.name}
-                                img={portfolio.image}
-                                link={portfolio.projectUrl}
-                                repo={portfolio.repoUrl}
-                                key={portfolio.id}
-                                id={portfolio.id}
-                            />
-                        )
-                        )
-                    }
+                    {portfolio.map(portfolio => (
+                        <Card
+                            title={portfolio.name}
+                            img={portfolio.image}
+                            link={portfolio.projectUrl}
+                            repo={portfolio.repoUrl}
+                            key={portfolio.id}
+                            id={portfolio.id}
+                        />
+                    ))}
                 </Container>
             </Wrapper>
         )
     }
-
-
-
-
-
 }
 
 export default Mapout;
