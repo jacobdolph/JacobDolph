@@ -4,8 +4,6 @@ import { Container } from '../Grid'
 
 const Portfolio = () => {
 
-
-
     return (
         <Container  >
             <div className='center' style={{ backgroundColor: 'white', height: '100%' }}>

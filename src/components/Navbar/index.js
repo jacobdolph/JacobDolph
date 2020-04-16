@@ -8,7 +8,6 @@ export class Navbar extends Component {
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems, {});
         })
-
     }
 
     render() {
