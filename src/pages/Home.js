@@ -16,9 +16,11 @@ const Home = () => {
             <Navbar />
             <Navmobile />
             <Row>
-                <Col size='s12'>
+                <Container container>
                     <Header />
-                </Col>
+                </Container>
+
+
                 <Col size='s12'>
                     <WebDev />
                 </Col>
