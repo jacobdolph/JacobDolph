@@ -5,7 +5,6 @@ function Tech() {
     return (
         <div>
             <div id="tech" className="technologies container">
-                <h1 className="center flow-text" style={{ fontSize: "3rem", margin: '5rem 0' }}>Tech</h1>
                 <div className="tech center">
                     <div className="icons col s6 m3 ">
                         <i className="fab fa-react blue-text text-lighten-3" style={{ fontSize: '5rem' }}></i><br />

@@ -8,6 +8,7 @@ import Header from "../components/Header";
 import PortfolioTitle from "../components/PortfolioTitle";
 import Mapout from "../components/Mapout";
 import Tech from "../components/Tech";
+import TechTitle from "../components/TechTitle";
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
                 <Mapout />
             </Row>
             <Row>
+                <TechTitle />
                 <Tech />
             </Row>
 
