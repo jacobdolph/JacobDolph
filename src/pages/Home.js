@@ -19,12 +19,8 @@ const Home = () => {
             <Row>
                 <Container container>
                     <Header />
-                </Container>
-
-
-                <Col size='s12'>
                     <WebDev />
-                </Col>
+                </Container>
             </Row>
             <Row>
                 <PortfolioTitle />

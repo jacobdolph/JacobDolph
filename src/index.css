@@ -1,19 +1,19 @@
 *{
- font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-background-color:white  ;
-  }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color:white  ;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
-  h1{
+main {
+  flex: 1 0 auto;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
     color:#f57c00;
-   font-family: 'Quicksand', sans-serif;
   }
 
  .brick{
