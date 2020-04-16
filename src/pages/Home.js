@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Container } from '../components/Grid'
+import { Row, Container } from '../components/Grid'
 
 import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";

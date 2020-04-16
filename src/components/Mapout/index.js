@@ -18,6 +18,8 @@ class Mapout extends Component {
                             img={portfolio.image}
                             link={portfolio.projectUrl}
                             repo={portfolio.repoUrl}
+                            description={portfolio.description}
+                            tech={portfolio.tech}
                             key={portfolio.id}
                             id={portfolio.id}
                         />
