@@ -7,6 +7,7 @@ import WebDev from "../components/WebDev";
 import Header from "../components/Header";
 import Portfolio from "../components/Portfolio";
 import Mapout from "../components/Mapout";
+import Tech from "../components/Tech";
 
 
 const Home = () => {
@@ -25,6 +26,9 @@ const Home = () => {
             <Row>
                 <Portfolio />
                 <Mapout />
+            </Row>
+            <Row>
+                <Tech />
             </Row>
 
         </Container >
