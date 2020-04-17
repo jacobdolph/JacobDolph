@@ -1,14 +1,17 @@
-import React from 'react';
+import React from "react";
+import { Container } from '../Grid'
 
 
-function WebDevTitle() {
+const Portfolio = () => {
+
     return (
-
-        <div>
-            <h1 className='flow-text' style={{ margin: '3rem 0 ', fontSize: "2.5rem" }}>Web Developer</h1>
-        </div>
-
-    )
-}
-
-export default WebDevTitle;
+        <Container  >
+            <div className='center' style={{ backgroundColor: 'white', height: '100%' }}>
+                <div>
+                    <h1 className='flow-text' style={{ margin: '0rem 0 2rem 0', fontSize: "300%", letterSpacing: '.2rem' }}>Web Developer</h1>
+                </div>
+            </div>
+        </Container >
+    );
+};
+export default Portfolio;

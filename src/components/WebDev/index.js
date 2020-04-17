@@ -1,4 +1,5 @@
 import React from 'react';
+import WebDevTitle from '../WebDevTitle';
 
 
 function WebDev() {
@@ -6,7 +7,7 @@ function WebDev() {
     return (
         <div className='center' style={{ backgroundColor: 'white', height: '100%' }}>
             <div>
-
+                <WebDevTitle />
                 <br />
                 <div style={{ fontSize: "3rem" }}>
                     <h6 className=' flow-text' style={{ padding: "1rem 1rem", margin: '0rem 1rem', color: "#37474f" }}>"Hello, My name is Jacob Dolph, and I am a web developer located in Cottenwood Heights, Ut."</h6>
