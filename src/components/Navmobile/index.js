@@ -9,6 +9,13 @@ function Navmobile() {
             <li><Link style={{ color: "#37474f", fontSize: '2rem' }} className='sidenav-close' to='/portfolio'>Portfolio</Link></li>
             <li><Link style={{ color: "#37474f", fontSize: '2rem' }} className='sidenav-close' to='/about'>About</Link></li>
             <li><Link style={{ color: "#37474f", fontSize: '2rem' }} className='sidenav-close' to='/Connect'>Connect</Link></li>
+            <br />
+            <br />
+            <a href='https://linkedin.com/in/jacob-dolph-508a82bb' rel="noopener noreferrer" target='_blank' style={{ color: "#37474f" }}>LinkedIn</a>
+            <a href='https://github.com/jacobdolph' rel="noopener noreferrer" target='_blank' style={{ color: "#37474f" }}>Github</a>
+            <a href='https://drive.google.com/file/d/1UNzogXdogaSg7oqvkZSs9z56ZCWf-Jpq/view?usp=sharing' rel="noopener noreferrer" target='_blank' style={{ color: "#37474f" }}>Resume</a>
+
+
         </ul>
     )
 }

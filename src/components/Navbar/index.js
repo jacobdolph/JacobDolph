@@ -23,9 +23,9 @@ export class Navbar extends Component {
                             <li><Link to='/' className='white-text'>Connect</Link></li>
                         </ul>
                         <ul id='nav-mobile' className="right hide-on-med-and-down" style={{ margin: '0rem' }} >
-                            <li><Link to='/' className='white-text' >LinkedIn</Link></li>
-                            <li><Link to='/' className='white-text'>Github</Link></li>
-                            <li><Link to='/' className='white-text'>Resume</Link></li>
+                            <li><a href='https://linkedin.com/in/jacob-dolph-508a82bb' rel="noopener noreferrer" target='_blank' className='white-text'>LinkedIn</a></li>
+                            <li><a href='https://github.com/jacobdolph' rel="noopener noreferrer" target='_blank' className='white-text'>Github</a></li>
+                            <li><a href='https://drive.google.com/file/d/1UNzogXdogaSg7oqvkZSs9z56ZCWf-Jpq/view?usp=sharing' rel="noopener noreferrer" target='_blank' className='white-text'>Resume</a></li>
                         </ul>
                     </div>
                 </nav>
