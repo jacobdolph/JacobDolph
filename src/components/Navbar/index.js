@@ -22,6 +22,11 @@ export class Navbar extends Component {
                             <li><Link to='/' className='white-text'>About</Link></li>
                             <li><Link to='/' className='white-text'>Connect</Link></li>
                         </ul>
+                        <ul id='nav-mobile' className="right hide-on-med-and-down" style={{ margin: '0rem' }} >
+                            <li><Link to='/' className='white-text' >LinkedIn</Link></li>
+                            <li><Link to='/' className='white-text'>Github</Link></li>
+                            <li><Link to='/' className='white-text'>Resume</Link></li>
+                        </ul>
                     </div>
                 </nav>
             </div>
