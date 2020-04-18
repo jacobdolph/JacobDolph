@@ -9,6 +9,8 @@ import PortfolioTitle from "../components/PortfolioTitle";
 import Mapout from "../components/Mapout";
 import Tech from "../components/Tech";
 import TechTitle from "../components/TechTitle";
+import ContactTitle from "../components/ContactTitle";
+import SectionWrapper from "../components/SectionWrapper";
 
 
 const Home = () => {
@@ -16,20 +18,34 @@ const Home = () => {
         <Container  >
             <Navbar />
             <Navmobile />
-            <Row>
-                <Container container>
-                    <Header />
-                    <WebDev />
-                </Container>
-            </Row>
-            <Row>
-                <PortfolioTitle />
-                <Mapout />
-            </Row>
-            <Row>
-                <TechTitle />
-                <Tech />
-            </Row>
+            <SectionWrapper>
+                <Row>
+                    <Container container>
+                        <Header />
+                        <WebDev />
+                    </Container>
+                </Row>
+            </SectionWrapper>
+            <SectionWrapper>
+
+                <Row>
+                    <PortfolioTitle />
+                    <Mapout />
+                </Row>
+            </SectionWrapper>
+            <SectionWrapper>
+
+                <Row>
+                    <TechTitle />
+                    <Tech />
+                </Row>
+            </SectionWrapper>
+            <SectionWrapper>
+
+                <Row>
+                    <ContactTitle />
+                </Row>
+            </SectionWrapper>
 
         </Container >
     );
