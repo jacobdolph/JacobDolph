@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Container } from '../components/Grid'
-
+import ContactForm from '../components/ContactForm'
 import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";
 import WebDev from "../components/WebDev";
@@ -44,6 +44,7 @@ const Home = () => {
 
                 <Row>
                     <ContactTitle />
+                    <ContactForm />
                 </Row>
             </SectionWrapper>
 
