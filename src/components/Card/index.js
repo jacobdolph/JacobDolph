@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Card(props) {
     return (
         <div className="col s12 m6" id={props.id} style={{ padding: '0' }} >
