@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Container } from '../components/Grid'
-import ContactForm from '../components/ContactForm'
 import Navbar from "../components/Navbar";
 import Navmobile from "../components/Navmobile";
 import WebDev from "../components/WebDev";
@@ -9,7 +8,6 @@ import PortfolioTitle from "../components/PortfolioTitle";
 import Mapout from "../components/Mapout";
 import Tech from "../components/Tech";
 import TechTitle from "../components/TechTitle";
-import ContactTitle from "../components/ContactTitle";
 import SectionWrapper from "../components/SectionWrapper";
 
 
@@ -41,13 +39,7 @@ const Home = () => {
                     <Tech />
                 </Row>
             </SectionWrapper>
-            <SectionWrapper>
 
-                <Row>
-                    <ContactTitle />
-                    <ContactForm />
-                </Row>
-            </SectionWrapper>
 
         </Container >
     );
