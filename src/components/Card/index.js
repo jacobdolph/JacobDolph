@@ -17,7 +17,7 @@ function Card(props) {
                 </div>
 
 
-                <div className="card-reveal">
+                <div className="card-reveal" style={{ opacity: .9 }}>
                     <span className="card-title grey-text text-darken-4"><i className="material-icons right">close</i></span>
                     <p>{props.description}<br /><br /> Tech Stack<br />{props.tech} </p>
                 </div>
