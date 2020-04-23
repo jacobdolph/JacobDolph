@@ -12,10 +12,49 @@ import SectionWrapper from "../components/SectionWrapper";
 
 
 
-const Home = () => {
+function Home() {
+
+
+
+
+    function toPortfolio(e) {
+        e.preventDefault();
+        document.getElementById('portfolio').scrollIntoView({
+            block: "center",
+            behavior: "smooth"
+        })
+    }
+    function toAbout(e) {
+        e.preventDefault();
+        document.getElementById('about').scrollIntoView({
+            block: "center",
+            behavior: "smooth"
+        })
+    }
+    function toTech(e) {
+        e.preventDefault();
+        document.getElementById('tech').scrollIntoView({
+            block: "center",
+            behavior: "smooth"
+        })
+    }
+    function toHome(e) {
+        e.preventDefault();
+        document.getElementById('home').scrollIntoView({
+            block: "center",
+            behavior: "smooth"
+        })
+    }
+
+
     return (
         <Container  >
-            <Navbar />
+            <Navbar
+                portfolio={toPortfolio}
+                about={toAbout}
+                tech={toTech}
+                home={toHome}
+            />
             <Navmobile />
             <SectionWrapper>
                 <Row>
