@@ -20,7 +20,6 @@ export class Navbar extends Component {
                         <ul id='nav-mobile' className="left hide-on-med-and-down" style={{ margin: '0rem' }} >
                             <li><Link to='/' onClick={this.props.home} className='white-text' >Home</Link></li>
                             <li><Link to='/' onClick={this.props.portfolio} className='white-text'>Portfolio</Link></li>
-                            <li><Link to='/' onClick={this.props.about} className='white-text'>About</Link></li>
                             <li><Link to='/' onClick={this.props.tech} className='white-text'>Tech</Link></li>
                         </ul>
                         <ul id='nav-mobile' className="right hide-on-med-and-down" style={{ margin: '0rem' }} >
